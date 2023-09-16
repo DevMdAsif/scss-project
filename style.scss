@@ -120,7 +120,7 @@ nav{
     }
    }
 }
-.about {
+.testimonials {
     width: 100%;
     height: 300px;
     text-align: center;
@@ -134,4 +134,67 @@ nav{
         margin-top: 30px;
         color: rgb(66, 63, 63);
     }
+}
+
+.footer-container{
+    width: 100%;
+    height: 100vh;
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-image: url(./images/footer-bg.png);
+
+    .user-input{
+        width: 80%;
+        height: 50%;
+        margin-left: 15%;
+        margin-top: 10%;
+        background-color: white;
+        position: relative;
+        border-radius: 5px;
+        input{
+            padding: 10px;
+            margin: 60px 0 0 30px;
+            border: 1px solid transparent;
+        }
+        button{
+            background-color: $btn-color;
+            padding: 15px 20px;
+            border: 1px solid transparent;
+            border-radius: 30px;
+            margin-top: 30px;
+            letter-spacing: 3px;
+            color: white;
+            position: absolute;
+            bottom: 15%;
+            left: 30%;
+            &:hover{
+                background-color: #f15669;
+                transition: .5s;
+            }
+        }
+       
+    }
+}
+.footer-info{
+    h2{
+        color: white;
+        font-size: xxx-large;
+        span{
+            color: #fba70b;
+        }
+    }
+    p{
+        color: white;
+        margin-top: 35px;
+        margin-right: 30%;
+    }
+}
+.Copyright{
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    background-image: linear-gradient(to right, #f47c44, #f15669);
 }
