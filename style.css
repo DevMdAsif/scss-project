@@ -72,9 +72,9 @@ nav ul li a:hover {
 }
 
 .featues {
-  margin-top: 20%;
+  margin-top: 15%;
   width: 100%;
-  height: 100vh;
+  height: 500px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -113,4 +113,20 @@ nav ul li a:hover {
 .featues .featues-item button:hover {
   background-color: #f15669;
   transition: 0.5s;
+}
+
+.about {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+.about h2 {
+  font-size: xxx-large;
+}
+.about h2 span {
+  color: #f4813f;
+}
+.about p {
+  margin-top: 30px;
+  color: rgb(66, 63, 63);
 }/*# sourceMappingURL=style.css.map */
