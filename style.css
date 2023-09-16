@@ -65,4 +65,52 @@ nav ul li a:hover {
   border-radius: 40px;
   font-weight: bold;
   letter-spacing: 2px;
+}
+.hero-section div button:hover {
+  background-color: #f15669;
+  transition: 0.5s;
+}
+
+.featues {
+  margin-top: 20%;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.featues .featues1 {
+  margin-left: 18%;
+}
+.featues .featues2 {
+  margin-left: 11%;
+}
+.featues .featues3 {
+  margin-left: 4%;
+}
+.featues .featues-item {
+  padding: 40px;
+  text-align: center;
+  width: 80%;
+  height: 400px;
+}
+.featues .featues-item h3 {
+  margin: 30px 0;
+  font-size: x-large;
+}
+.featues .featues-item p {
+  font-size: larger;
+  color: rgb(63, 59, 59);
+}
+.featues .featues-item button {
+  background-color: #f4813f;
+  padding: 15px 20px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  margin-top: 30px;
+  letter-spacing: 3px;
+  color: white;
+}
+.featues .featues-item button:hover {
+  background-color: #f15669;
+  transition: 0.5s;
 }/*# sourceMappingURL=style.css.map */
